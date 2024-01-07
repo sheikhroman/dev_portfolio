@@ -86,9 +86,11 @@ nav a {
   border-radius: 5px;
 }
 /* main */
+main{
+    padding: 30px 150px;
+}
 /* about */
 .about{
-    margin: 130px;
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
@@ -109,4 +111,33 @@ nav a {
 }
 .about-info{
     text-align: center;
+}
+
+/* skill-container */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
+}
+section{
+    padding-top: 40px;
+}
+/* resume section */
+.column-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-ins, .resume-desc{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 40px;
 }
